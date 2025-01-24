@@ -1,0 +1,18 @@
+data_analysis_task:
+  description: >
+    Conduct a comprehensive analysis of the provided dataset to identify the top 10 counties with the highest violent crime rates. 
+    The dataset is located at {file_path} and contains the following columns:
+
+    - State: The state where the county is located
+    - County: The name of the county
+    - Year span: The time period over which the crime data was collected
+    - Measure name: The type of crime (in this case, Violent crime rate)
+    - Raw value: The actual crime rate value
+
+    Your task is to create and execute a Python code to extract the top 10 counties with the highest violent crime rates, 
+    along with their corresponding raw values, year spans, and county names. 
+    Ensure that the results are sorted in descending order based on the raw values.
+  expected_output: >
+    A well-structured table or data frame containing the top 10 counties with the highest violent crime rates, 
+    along with their corresponding raw values, year spans, and county names.
+  agent: software_engineer
